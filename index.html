@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sainath Web</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+    <style>
+        html{
+            scroll-behavior: smooth;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-primary font-weight-bold" href="#"><img src="img/sa.png" height="40">Sainath</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About-us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                </ul>
+            </div>
+        </div>	
+        </nav>
+        <section id="Home">
+        <div id="slides" class="carousel slide" data-ride="carousel" data-interval="3000"> 
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="0"></li>
+                <li data-target="#slides" data-slide-to="0"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/1.jpg" class="mx-auto d-block" width=70%>
+                    <div class="carousel-caption">
+                        <class="display-4">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/2.jpg" class="mx-auto d-block" width=70%>
+                    <div class="carousel-caption">
+                        <class="display-4">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/3.jpg" class="mx-auto d-block" width=70%>
+                    <div class="carousel-caption">
+                        <class="display-4">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section><br><br><br>
+        <section id="About-us">
+            <div class="container text-center">    
+                <h3>Photography</h3><br>
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="well">
+                         <p class="container-fluid">The Canon EOS-1D is a professional digital single-lens reflex camera launched in November 2001 as part of Canon's flagship EOS-1 series. ... 
+                            It was also the first professional-level digital camera developed and released entirely by Canon,
+                            the previous D2000 being a collaborative effort with Kodak</p>
+                        </div>
+                      </div>
+                  <div class="col-sm-6">
+                    <img src="img/6.jpg" class="img-responsive" style="width:100%" alt="Image">
+                    <p>Canon EOS-1D</p>
+                  </div>
+                  </div>
+                </section>
+                <section id="contact-us">
+                <div class="container">
+                  <div class="row">
+                  <div class="col-sm-6">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243480.51840527172!2d78.43127590698082!3d17.53693789609742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb84ad48255d29%3A0x410841a999b3433!2sSecunderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1636902609452!5m2!1sen!2sin" width="100%" height="450" style="border: 10px;" allowfullscreen="" loading="lazy" ></iframe>
+                  </div>
+                  <form class="col-sm-6">
+            <div class="col-sm-6"> 
+                <label for="validationDefault01" class="form-label">First name</label>
+                <input type="text" class="form-control" id="validationDefault01" name="First name" required>
+            </div>
+            <div class="col-sm-6">
+                <label for="validationDefault02" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="validationDefault02" name="Last name" required>
+            </div>
+            <div class="col-sm-6">
+                <label for="validationDefaultUsername" class="form-label">Username</label>
+                <div class="input-group">
+                <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="validationDefault03" class="form-label">City</label>
+                <input type="text" class="form-control" id="validationDefault03" required>
+            </div>
+            <div class="col-md-3">
+                <label for="validationDefault04" class="form-label">State</label>
+                <select class="form-select" id="validationDefault04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>...</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label for="validationDefault05" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                    Agree to terms and conditions
+                </label>
+                </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+
+            </div>
+                </div>
+            </div>
+              </div>
+            </div>
+            </section><br>
+              
+            <footer>
+            <section class="page-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-7">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-4">
+                                     <address>
+                                        <h5 class="title"><i class="icon-map-pin text-color"></i> Address</h5>
+                                        Hyderabad.
+                                    </address>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <h5 class="title"><i class="icon-phone10 text-color"></i> Phone</h5>
+                                    <div>Mobile: +91 7036304036</div>
+                                    
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <h5 class="title"><i class="icon-envelope7 text-color"></i> Email Addresses</h5>
+                                    <div>mr.sainathsai@gmail.com</div>
+                                </div>
+                            </div>
+                            <hr>
+                            <p>This is designed and developed by Sainath</p>
+                        </div>
+            
+    </div>
+  </div>
+    </footer>
+</body>
+</html>
